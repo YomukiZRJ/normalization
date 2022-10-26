@@ -1,0 +1,11 @@
+{
+  "name": "@yomukizrj/normalization-config-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@7.2.1",
+  "author": "yomuki",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
