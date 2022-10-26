@@ -18,7 +18,7 @@ module.exports = {
   },
   reportUnusedDisableDirectives: true,
   extends: [
-    "./style.js",
+    "./js-standard.js",
     "eslint:recommended",
     "plugin:import/recommended", // @see https://www.npmjs.com/package/eslint-plugin-import
     "plugin:eslint-comments/recommended", // @see https://mysticatea.github.io/eslint-plugin-eslint-comments/

@@ -1,6 +1,5 @@
 /**
- * @see https://www.npmjs.com/package/eslint-plugin-import
- * @see https://www.npmjs.com/package/eslint-plugin-promise
+ * js规范
  */
 module.exports = {
   parserOptions: {
