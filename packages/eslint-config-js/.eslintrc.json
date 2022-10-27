@@ -13,7 +13,8 @@
   "plugins": [
     "import",
     "n",
-    "promise"
+    "promise",
+    "unicorn"
   ],
   "extends": [
     "eslint:recommended",
@@ -611,6 +612,17 @@
     "n/no-exports-assign": "error",
     "n/no-new-require": "error",
     "n/no-path-concat": "error",
-    "n/process-exit-as-throw": "error"
+    "n/process-exit-as-throw": "error",
+    "unicorn/error-message": "error",
+    "unicorn/escape-case": "error",
+    "unicorn/no-instanceof-array": "error",
+    "unicorn/no-new-buffer": "error",
+    "unicorn/no-unsafe-regex": "off",
+    "unicorn/number-literal-case": "error",
+    "unicorn/prefer-includes": "error",
+    "unicorn/prefer-string-starts-ends-with": "error",
+    "unicorn/prefer-text-content": "error",
+    "unicorn/prefer-type-error": "error",
+    "unicorn/throw-new-error": "error"
   }
 }

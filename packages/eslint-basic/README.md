@@ -1,7 +1,4 @@
 # eslint基础配置
-```txt
-npm i eslint eslint-plugin-promise eslint-plugin-import eslint-plugin-n -g
-```
 ## javaScript语法拓展
 | packageName                                                                  | -                                 |
 | ---------------------------------------------------------------------------- | --------------------------------- |
@@ -15,9 +12,38 @@ npm i eslint eslint-plugin-promise eslint-plugin-import eslint-plugin-n -g
 | [eslint-plugin-html](https://www.npmjs.com/package/eslint-plugin-html)                       | lint & fix `html文件` 中的inline scripts |
 | [eslint-plugin-markdown](https://www.npmjs.com/package/eslint-plugin-markdown)               | `markdown文件` 插件                      |
 | [eslint-plugin-jsonc](https://www.npmjs.com/package/eslint-plugin-jsonc)                     | json,jsonc,json5 files                   |
+| [eslint-plugin-yml](https://www.npmjs.com/package/eslint-plugin-yml)                         | rules for YAML                           |
 
-## 自定义规范
-[eslint-plugin-promise](https://www.npmjs.com/package/eslint-plugin-promise)
-| rules                 | level | -                 |
-| --------------------- | ----- | ----------------- |
-| `promise/param-names` | error | promise参数名规范 |
+## vscode配置
+```json
+{
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": [
+    "javascript",
+    "html",
+    "vue",
+    "typescript",
+    "markdown",
+    "json",
+    "yaml",
+    "jsonc"
+  ],
+  "eslint.probe": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "vue",
+    "markdown",
+    "json",
+    "jsonc",
+    "yaml"
+  ]
+}
+```
+## 规范参考
+- [antfu大佬的规范](https://github.com/antfu/eslint-config/blob/main/packages/basic/index.js)

@@ -1,5 +1,5 @@
 # eslint javaScript 配置
-
+eslint for .js
 ## 如何在vscode将此配置设为默认？
 先全局安装依赖
 ```txt
@@ -7,7 +7,7 @@ npm i eslint eslint-plugin-promise eslint-plugin-import eslint-plugin-n -g
 ```
 ```json
 {
-  "eslint.lintTask.options": "https://github.com/YomukiZRJ/normalization/tree/main/packages/eslint-config-js/.eslintrc.json"
+  "eslint.options": { "configFile": "https://github.com/YomukiZRJ/normalization/tree/main/packages/eslint-config-js/.eslintrc.json" }
 }
 ```
 ## javaScript语法拓展
@@ -16,6 +16,7 @@ npm i eslint eslint-plugin-promise eslint-plugin-import eslint-plugin-n -g
 | [eslint-plugin-promise](https://www.npmjs.com/package/eslint-plugin-promise) | javaScript Promise 语法规范       |
 | [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import)   | javaScript import/export 语法规范 |
 | [eslint-plugin-n](https://www.npmjs.com/package/eslint-plugin-n)             | Node.js 规范                      |
+| [eslint-plugin-unicorn](https://www.npmjs.com/package/eslint-plugin-unicorn) | ESLint 包装器                     |
 
 ## 规范参考
 - [eslint中文网](http://eslint.cn/docs/rules/)

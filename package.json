@@ -6,6 +6,14 @@
   "author": "yomuki",
   "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint ./"
+  },
+  "dependencies": {
+    "@yomukizrj/eslint-config-basic": "workspace:*"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@yomukizrj/eslint-config-basic"
+    ]
   }
 }
