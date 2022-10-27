@@ -1,0 +1,27 @@
+{
+  "name": "@yomukizrj/eslint-config-js",
+  "version": "1.0.0",
+  "description": "eslint javaScript配置",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "keywords": [],
+  "author": "yomuki",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    ".eslintrc.json"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.26.0"
+  },
+  "dependencies": {
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.3.0",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}
