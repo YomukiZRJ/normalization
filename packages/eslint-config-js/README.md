@@ -1,15 +1,5 @@
 # eslint javaScript 配置
 eslint for .js
-## 如何在vscode将此配置设为默认？
-先全局安装依赖
-```txt
-npm i eslint eslint-plugin-promise eslint-plugin-import eslint-plugin-n -g
-```
-```json
-{
-  "eslint.options": { "configFile": "https://github.com/YomukiZRJ/normalization/tree/main/packages/eslint-config-js/.eslintrc.json" }
-}
-```
 ## javaScript语法拓展
 | packageName                                                                  | -                                 |
 | ---------------------------------------------------------------------------- | --------------------------------- |

@@ -1,0 +1,22 @@
+{
+  "name": "@yomukizrj/eslint-config-vue3",
+  "version": "1.0.0",
+  "description": "",
+  "author": "yomuki",
+  "license": "MIT",
+  "keywords": [],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "@yomukizrj/eslint-config-basic": "workspace:*",
+    "eslint-plugin-vue": "^9.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.26.0"
+  }
+}
