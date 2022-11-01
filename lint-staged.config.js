@@ -1,0 +1,1 @@
+module.exports = { '*.{js,jsx,ts,tsx}': ['eslint --fix'], '{!(package)*.json,*.code-snippets,.!(browserslist)*rc}': [], 'package.json': [], '*.vue': ['eslint --fix'], '*.{scss,less,styl,html}': [], '*.md': [] }

@@ -1,6 +1,6 @@
 {
   "name": "@yomukizrj/eslint-config-js",
-  "version": "1.0.0",
+  "version": "0.2.0",
   "description": "eslint javaScript配置",
   "author": "yomuki",
   "license": "MIT",
@@ -24,5 +24,8 @@
   },
   "devDependencies": {
     "eslint": "^8.26.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

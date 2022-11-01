@@ -1,6 +1,6 @@
 {
-  "name": "eslint-config-vue2",
-  "version": "1.0.0",
+  "name": "@yomukizrj/eslint-config-vue2",
+  "version": "0.2.0",
   "description": "",
   "author": "yomuki",
   "license": "MIT",
@@ -18,5 +18,8 @@
   },
   "devDependencies": {
     "eslint": "^8.26.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

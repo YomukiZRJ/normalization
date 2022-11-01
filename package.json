@@ -6,14 +6,29 @@
   "author": "yomuki",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint ./"
+    "eslint": "eslint ./",
+    "prepare": "husky install",
+    "lint:lint-staged": "lint-staged",
+    "commit": "git add . && git-cz"
   },
-  "dependencies": {
-    "@yomukizrj/eslint-config-basic": "workspace:*"
+  "devDependencies": {
+    "@changesets/cli": "^2.25.2",
+    "@commitlint/cli": "^17.2.0",
+    "@commitlint/config-conventional": "^17.2.0",
+    "@yomukizrj/eslint-config-vue3": "workspace:*",
+    "commitizen": "^4.2.5",
+    "cz-git": "^1.3.12",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.0.3"
   },
   "eslintConfig": {
     "extends": [
-      "@yomukizrj/eslint-config-basic"
+      "@yomukizrj/eslint-config-vue3"
     ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-git"
+    }
   }
 }
