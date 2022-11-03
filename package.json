@@ -9,7 +9,10 @@
     "eslint": "eslint ./",
     "prepare": "husky install",
     "lint:lint-staged": "lint-staged",
-    "commit": "git add . && git-cz"
+    "commit": "git add . && git-cz",
+    "changeset": "changeset",
+    "version": "changeset version",
+    "publish": "changeset publish"
   },
   "devDependencies": {
     "@changesets/cli": "^2.25.2",

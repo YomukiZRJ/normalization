@@ -15,6 +15,9 @@ module.exports = {
   },
   overrides: basic.overrides,
   rules: {
+    'indent': [
+      'off'
+    ],
     '@typescript-eslint/indent': [
       'error',
       2,
@@ -79,18 +82,23 @@ module.exports = {
     '@typescript-eslint/prefer-ts-expect-error': 'error',
     '@typescript-eslint/no-redeclare': 'error',
     '@typescript-eslint/no-use-before-define': ['error', { functions: false, classes: false, variables: true }],
-    '@typescript-eslint/comma-dangle': ['error', 'always-multiline'],
+    '@typescript-eslint/comma-dangle': [
+      'error',
+      {
+        arrays: 'never',
+        objects: 'never',
+        imports: 'never',
+        exports: 'never',
+        functions: 'never'
+      }
+    ],
     '@typescript-eslint/object-curly-spacing': ['error', 'always'],
     '@typescript-eslint/semi': ['error', 'never'],
     '@typescript-eslint/quotes': ['error', 'single'],
     '@typescript-eslint/space-before-blocks': ['error', 'always'],
     '@typescript-eslint/space-before-function-paren': [
       'error',
-      {
-        anonymous: 'always',
-        named: 'never',
-        asyncArrow: 'always'
-      }
+      'always'
     ],
     '@typescript-eslint/space-infix-ops': 'error',
     '@typescript-eslint/keyword-spacing': ['error', { before: true, after: true }],
