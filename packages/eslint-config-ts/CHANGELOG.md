@@ -1,5 +1,15 @@
 # @yomukizrj/eslint-config-ts
 
+## 0.3.0
+
+### Minor Changes
+
+- 修复规则冲突
+
+### Patch Changes
+
+- @yomukizrj/eslint-config-basic@0.2.1
+
 ## 0.2.1
 
 ### Patch Changes

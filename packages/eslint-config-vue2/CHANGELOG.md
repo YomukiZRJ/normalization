@@ -1,5 +1,11 @@
 # @yomukizrj/eslint-config-vue2
 
+## 0.2.1
+
+### Patch Changes
+
+- @yomukizrj/eslint-config-basic@0.2.1
+
 ## 0.2.0
 
 ### Minor Changes

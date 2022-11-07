@@ -81,32 +81,12 @@ module.exports = {
     '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
     '@typescript-eslint/prefer-ts-expect-error': 'error',
     '@typescript-eslint/no-redeclare': 'error',
-    '@typescript-eslint/no-use-before-define': ['error', { functions: false, classes: false, variables: true }],
-    '@typescript-eslint/comma-dangle': [
-      'error',
-      {
-        arrays: 'never',
-        objects: 'never',
-        imports: 'never',
-        exports: 'never',
-        functions: 'never'
-      }
-    ],
-    '@typescript-eslint/object-curly-spacing': ['error', 'always'],
-    '@typescript-eslint/semi': ['error', 'never'],
-    '@typescript-eslint/quotes': ['error', 'single'],
-    '@typescript-eslint/space-before-blocks': ['error', 'always'],
     '@typescript-eslint/space-before-function-paren': [
       'error',
       'always'
     ],
     '@typescript-eslint/space-infix-ops': 'error',
-    '@typescript-eslint/keyword-spacing': ['error', { before: true, after: true }],
-    '@typescript-eslint/comma-spacing': ['error', { before: false, after: true }],
-    '@typescript-eslint/no-extra-parens': ['error', 'functions'],
     '@typescript-eslint/no-dupe-class-members': 'error',
-    '@typescript-eslint/no-loss-of-precision': 'error',
-    '@typescript-eslint/lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
     '@typescript-eslint/consistent-indexed-object-style': 'off',
     '@typescript-eslint/naming-convention': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',

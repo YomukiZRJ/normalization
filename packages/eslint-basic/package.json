@@ -1,6 +1,6 @@
 {
   "name": "@yomukizrj/eslint-config-basic",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "eslint基础配置",
   "author": "yomuki",
   "license": "MIT",
