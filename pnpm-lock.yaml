@@ -93,6 +93,17 @@ importers:
     devDependencies:
       eslint: 8.26.0
 
+  packages/eslint-config-vue3-ts:
+    specifiers:
+      '@yomukizrj/eslint-config-ts': workspace:*
+      eslint: ^8.26.0
+      eslint-plugin-vue: ^9.6.0
+    dependencies:
+      '@yomukizrj/eslint-config-ts': link:../eslint-config-ts
+      eslint-plugin-vue: 9.7.0_eslint@8.26.0
+    devDependencies:
+      eslint: 8.26.0
+
 packages:
 
   /@babel/code-frame/7.18.6:

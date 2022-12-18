@@ -1,0 +1,25 @@
+{
+  "name": "@yomukizrj/eslint-config-vue3-ts",
+  "version": "0.2.0",
+  "description": "",
+  "author": "Yomuki",
+  "license": "MIT",
+  "keywords": [],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "@yomukizrj/eslint-config-ts": "workspace:*",
+    "eslint-plugin-vue": "^9.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.26.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
